@@ -28,6 +28,8 @@
 #import "JNWCollectionViewLayout.h"
 #import "JNWCollectionViewLayout+Private.h"
 
+#define NSRectIsEqualToRect(r1, r2) (r1.origin.x==r2.origin.x && r1.origin.y==r2.origin.y && r1.size.width==r2.size.width && r1.size.height==r2.size.height)
+
 typedef NS_ENUM(NSInteger, JNWCollectionViewSelectionType) {
 	JNWCollectionViewSelectionTypeSingle,
 	JNWCollectionViewSelectionTypeExtending,
@@ -724,9 +726,15 @@ static void JNWCollectionViewCommonInit(JNWCollectionView *collectionView) {
 - (void)applyLayoutAttributes:(JNWCollectionViewLayoutAttributes *)attributes toCell:(JNWCollectionViewCell *)cell {
 	[cell willLayoutWithFrame:attributes.frame];
 
-	cell.frame = attributes.frame;
-	cell.alphaValue = attributes.alpha;
-	cell.layer.zPosition = attributes.zIndex;
+	if (!NSRectIsEqualToRect(cell.frame, attributes.frame)) {
+		cell.frame = attributes.frame;
+	}
+	if (cell.alphaValue != attributes.alpha) {
+		cell.alphaValue = attributes.alpha;
+	}
+	if (cell.layer.zPosition != attributes.zIndex) {
+		cell.layer.zPosition = attributes.zIndex;
+	}
 }
 
 #pragma mark Supplementary Views
@@ -830,9 +838,16 @@ static void JNWCollectionViewCommonInit(JNWCollectionView *collectionView) {
 }
 
 - (void)applyLayoutAttributes:(JNWCollectionViewLayoutAttributes *)attributes toSupplementaryView:(JNWCollectionViewReusableView *)view {
-	view.frame = attributes.frame;
-	view.alphaValue = attributes.alpha;
-	view.layer.zPosition = attributes.zIndex;
+	
+	if (!NSRectIsEqualToRect(view.frame, attributes.frame)) {
+		view.frame = attributes.frame;
+	}
+	if (view.alphaValue != attributes.alpha) {
+		view.alphaValue = attributes.alpha;
+	}
+	if (view.layer.zPosition != attributes.zIndex) {
+		view.layer.zPosition = attributes.zIndex;
+	}
 }
 
 #pragma mark Mouse events and selection
