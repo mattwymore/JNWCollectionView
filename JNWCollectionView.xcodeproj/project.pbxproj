@@ -30,7 +30,6 @@
 		AB3C7202170CA8D3004A91DB /* NSIndexPath+JNWAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = AB3C71F2170CA8D3004A91DB /* NSIndexPath+JNWAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AB3C7203170CA8D3004A91DB /* NSIndexPath+JNWAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = AB3C71F3170CA8D3004A91DB /* NSIndexPath+JNWAdditions.m */; };
 		AB3C7209170CA8EF004A91DB /* JNWCollectionView-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AB3C7206170CA8EF004A91DB /* JNWCollectionView-Prefix.pch */; };
-		AB3C720C170CA8F3004A91DB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AB3C720A170CA8F3004A91DB /* InfoPlist.strings */; };
 		ABA276B2171D1C4B005C8E56 /* JNWCollectionViewDocumentView.h in Headers */ = {isa = PBXBuildFile; fileRef = ABA276B0171D1C4B005C8E56 /* JNWCollectionViewDocumentView.h */; };
 		ABA276B3171D1C4B005C8E56 /* JNWCollectionViewDocumentView.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA276B1171D1C4B005C8E56 /* JNWCollectionViewDocumentView.m */; };
 		ABB023F5170791D300537A92 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABB023F4170791D300537A92 /* Cocoa.framework */; };
@@ -40,70 +39,7 @@
 		ABE145361747519700DD3FCA /* JNWCollectionViewData.m in Sources */ = {isa = PBXBuildFile; fileRef = ABE145341747519700DD3FCA /* JNWCollectionViewData.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		8467C6DF171E589200A1F343 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8467C6D8171E589200A1F343 /* Expecta.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = E9ACDF0C13B2DD520010F4D7;
-			remoteInfo = Expecta;
-		};
-		8467C6E1171E589200A1F343 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8467C6D8171E589200A1F343 /* Expecta.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = E93067CE13B2E6D100EA26FF;
-			remoteInfo = "Expecta-iOS";
-		};
-		8467C6E3171E589200A1F343 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8467C6D8171E589200A1F343 /* Expecta.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = E9ACDF1D13B2DD520010F4D7;
-			remoteInfo = ExpectaTests;
-		};
-		8467C6E5171E589200A1F343 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8467C6D8171E589200A1F343 /* Expecta.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = E93067DA13B2E6D100EA26FF;
-			remoteInfo = "Expecta-iOSTests";
-		};
-		8467C6EE171E589500A1F343 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8467C6E7171E589500A1F343 /* Specta.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = E9D96A2614B6B8AB007D9521;
-			remoteInfo = Specta;
-		};
-		8467C6F0171E589500A1F343 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8467C6E7171E589500A1F343 /* Specta.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = E9B777A414BA294B00D8DC76;
-			remoteInfo = "Specta-iOS";
-		};
-		8467C6F2171E589500A1F343 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8467C6E7171E589500A1F343 /* Specta.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = E9D96A3A14B6B8AB007D9521;
-			remoteInfo = SpectaTests;
-		};
-		8467C6F4171E589500A1F343 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8467C6E7171E589500A1F343 /* Specta.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = E9B777B314BA294C00D8DC76;
-			remoteInfo = "Specta-iOSTests";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		8467C6D6171E587F00A1F343 /* JNWCollectionViewReusableViewSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JNWCollectionViewReusableViewSpec.m; path = JNWCollectionViewTests/JNWCollectionViewReusableViewSpec.m; sourceTree = SOURCE_ROOT; };
-		8467C6D8171E589200A1F343 /* Expecta.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Expecta.xcodeproj; path = external/Expecta/Expecta.xcodeproj; sourceTree = SOURCE_ROOT; };
-		8467C6E7171E589500A1F343 /* Specta.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Specta.xcodeproj; path = external/Specta/Specta.xcodeproj; sourceTree = SOURCE_ROOT; };
-		8467C704171E5C9B00A1F343 /* JNWCollectionViewTests-Tests.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "JNWCollectionViewTests-Tests.pch"; path = "JNWCollectionViewTests/JNWCollectionViewTests-Tests.pch"; sourceTree = SOURCE_ROOT; };
 		AB0EA368189472A400E28525 /* JNWCollectionViewLayout+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "JNWCollectionViewLayout+Private.h"; path = "JNWCollectionView/JNWCollectionViewLayout+Private.h"; sourceTree = SOURCE_ROOT; };
 		AB15146D1714C90800871248 /* JNWCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JNWCollectionViewLayout.h; path = JNWCollectionView/JNWCollectionViewLayout.h; sourceTree = SOURCE_ROOT; };
 		AB15146E1714C90800871248 /* JNWCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JNWCollectionViewLayout.m; path = JNWCollectionView/JNWCollectionViewLayout.m; sourceTree = SOURCE_ROOT; };
@@ -128,9 +64,7 @@
 		AB3C71F3170CA8D3004A91DB /* NSIndexPath+JNWAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSIndexPath+JNWAdditions.m"; path = "JNWCollectionView/NSIndexPath+JNWAdditions.m"; sourceTree = SOURCE_ROOT; };
 		AB3C7205170CA8EF004A91DB /* JNWCollectionView-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "JNWCollectionView-Info.plist"; path = "JNWCollectionView/JNWCollectionView-Info.plist"; sourceTree = SOURCE_ROOT; };
 		AB3C7206170CA8EF004A91DB /* JNWCollectionView-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "JNWCollectionView-Prefix.pch"; path = "JNWCollectionView/JNWCollectionView-Prefix.pch"; sourceTree = SOURCE_ROOT; };
-		AB3C720B170CA8F3004A91DB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = JNWCollectionView/en.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
 		AB3C7212170CA981004A91DB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = JNWCollectionViewTests/en.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
-		AB3C7214170CA990004A91DB /* JNWCollectionViewTests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "JNWCollectionViewTests-Info.plist"; path = "JNWCollectionViewTests/JNWCollectionViewTests-Info.plist"; sourceTree = SOURCE_ROOT; };
 		ABA276B0171D1C4B005C8E56 /* JNWCollectionViewDocumentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JNWCollectionViewDocumentView.h; path = JNWCollectionView/JNWCollectionViewDocumentView.h; sourceTree = SOURCE_ROOT; };
 		ABA276B1171D1C4B005C8E56 /* JNWCollectionViewDocumentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JNWCollectionViewDocumentView.m; path = JNWCollectionView/JNWCollectionViewDocumentView.m; sourceTree = SOURCE_ROOT; };
 		ABB023F1170791D300537A92 /* JNWCollectionView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JNWCollectionView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -138,12 +72,8 @@
 		ABB023F7170791D300537A92 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		ABB023F8170791D300537A92 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		ABB023F9170791D300537A92 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		ABB0240A170791D300537A92 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		ABB024671707937F00537A92 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		ABBEA58A171E7D7A00A6F03D /* JNWCollectionViewSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JNWCollectionViewSpec.m; path = JNWCollectionViewTests/JNWCollectionViewSpec.m; sourceTree = SOURCE_ROOT; };
 		ABC05C681807808E00CAED48 /* JNWCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JNWCollectionView.h; path = JNWCollectionView/JNWCollectionView.h; sourceTree = SOURCE_ROOT; };
-		ABDE2697172BD9B100F8924F /* JNWTestImplementation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JNWTestImplementation.h; path = JNWCollectionViewTests/JNWTestImplementation.h; sourceTree = SOURCE_ROOT; };
-		ABDE2698172BD9B100F8924F /* JNWTestImplementation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JNWTestImplementation.m; path = JNWCollectionViewTests/JNWTestImplementation.m; sourceTree = SOURCE_ROOT; };
 		ABE145331747519700DD3FCA /* JNWCollectionViewData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JNWCollectionViewData.h; path = JNWCollectionView/JNWCollectionViewData.h; sourceTree = SOURCE_ROOT; };
 		ABE145341747519700DD3FCA /* JNWCollectionViewData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JNWCollectionViewData.m; path = JNWCollectionView/JNWCollectionViewData.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
@@ -161,38 +91,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8467C6D3171E581300A1F343 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				AB3C7214170CA990004A91DB /* JNWCollectionViewTests-Info.plist */,
-				AB3C720A170CA8F3004A91DB /* InfoPlist.strings */,
-				8467C704171E5C9B00A1F343 /* JNWCollectionViewTests-Tests.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		8467C6D9171E589200A1F343 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				8467C6E0171E589200A1F343 /* libExpecta.a */,
-				8467C6E2171E589200A1F343 /* libExpecta-iOS.a */,
-				8467C6E4171E589200A1F343 /* ExpectaTests.octest */,
-				8467C6E6171E589200A1F343 /* Expecta-iOSTests.octest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		8467C6E8171E589500A1F343 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				8467C6EF171E589500A1F343 /* libSpecta.a */,
-				8467C6F1171E589500A1F343 /* libSpecta-iOS.a */,
-				8467C6F3171E589500A1F343 /* SpectaTests.octest */,
-				8467C6F5171E589500A1F343 /* Specta-iOSTests.octest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		AB1514711714D36200871248 /* Layouts */ = {
 			isa = PBXGroup;
 			children = (
@@ -217,20 +115,10 @@
 			name = Private;
 			sourceTree = "<group>";
 		};
-		AB46B0AF171F900100F727C7 /* external */ = {
-			isa = PBXGroup;
-			children = (
-				8467C6E7171E589500A1F343 /* Specta.xcodeproj */,
-				8467C6D8171E589200A1F343 /* Expecta.xcodeproj */,
-			);
-			name = external;
-			sourceTree = "<group>";
-		};
 		ABB023E7170791D300537A92 = {
 			isa = PBXGroup;
 			children = (
 				ABB023FA170791D300537A92 /* JNWCollectionView */,
-				ABB02410170791D300537A92 /* JNWCollectionViewTests */,
 				ABB023F3170791D300537A92 /* Frameworks */,
 				ABB023F2170791D300537A92 /* Products */,
 			);
@@ -249,7 +137,6 @@
 			children = (
 				ABB024671707937F00537A92 /* QuartzCore.framework */,
 				ABB023F4170791D300537A92 /* Cocoa.framework */,
-				ABB0240A170791D300537A92 /* SenTestingKit.framework */,
 				ABB023F6170791D300537A92 /* Other Frameworks */,
 			);
 			name = Frameworks;
@@ -298,20 +185,6 @@
 				AB3C7211170CA981004A91DB /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		ABB02410170791D300537A92 /* JNWCollectionViewTests */ = {
-			isa = PBXGroup;
-			children = (
-				AB46B0AF171F900100F727C7 /* external */,
-				8467C6D6171E587F00A1F343 /* JNWCollectionViewReusableViewSpec.m */,
-				ABBEA58A171E7D7A00A6F03D /* JNWCollectionViewSpec.m */,
-				ABDE2697172BD9B100F8924F /* JNWTestImplementation.h */,
-				ABDE2698172BD9B100F8924F /* JNWTestImplementation.m */,
-				8467C6D3171E581300A1F343 /* Supporting Files */,
-			);
-			name = JNWCollectionViewTests;
-			path = JNWTableViewTests;
 			sourceTree = "<group>";
 		};
 		ABE0A77817C7E22F005F35A8 /* External */ = {
@@ -393,16 +266,6 @@
 			mainGroup = ABB023E7170791D300537A92;
 			productRefGroup = ABB023F2170791D300537A92 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 8467C6D9171E589200A1F343 /* Products */;
-					ProjectRef = 8467C6D8171E589200A1F343 /* Expecta.xcodeproj */;
-				},
-				{
-					ProductGroup = 8467C6E8171E589500A1F343 /* Products */;
-					ProjectRef = 8467C6E7171E589500A1F343 /* Specta.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				ABB023F0170791D300537A92 /* JNWCollectionView */,
@@ -410,71 +273,11 @@
 		};
 /* End PBXProject section */
 
-/* Begin PBXReferenceProxy section */
-		8467C6E0171E589200A1F343 /* libExpecta.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libExpecta.a;
-			remoteRef = 8467C6DF171E589200A1F343 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		8467C6E2171E589200A1F343 /* libExpecta-iOS.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = "libExpecta-iOS.a";
-			remoteRef = 8467C6E1171E589200A1F343 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		8467C6E4171E589200A1F343 /* ExpectaTests.octest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = ExpectaTests.octest;
-			remoteRef = 8467C6E3171E589200A1F343 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		8467C6E6171E589200A1F343 /* Expecta-iOSTests.octest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = "Expecta-iOSTests.octest";
-			remoteRef = 8467C6E5171E589200A1F343 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		8467C6EF171E589500A1F343 /* libSpecta.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libSpecta.a;
-			remoteRef = 8467C6EE171E589500A1F343 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		8467C6F1171E589500A1F343 /* libSpecta-iOS.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = "libSpecta-iOS.a";
-			remoteRef = 8467C6F0171E589500A1F343 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		8467C6F3171E589500A1F343 /* SpectaTests.octest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = SpectaTests.octest;
-			remoteRef = 8467C6F2171E589500A1F343 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		8467C6F5171E589500A1F343 /* Specta-iOSTests.octest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = "Specta-iOSTests.octest";
-			remoteRef = 8467C6F4171E589500A1F343 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
-
 /* Begin PBXResourcesBuildPhase section */
 		ABB023EF170791D300537A92 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB3C720C170CA8F3004A91DB /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -502,14 +305,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		AB3C720A170CA8F3004A91DB /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AB3C720B170CA8F3004A91DB /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
 		AB3C7211170CA981004A91DB /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
